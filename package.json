@@ -1,16 +1,16 @@
 {
   "name": "passwordgenerator",
+  "homepage": "https://harshrathore2303.github.io/password-generator/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://harshrathore2303.github.io/password-generator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
